@@ -1,8 +1,5 @@
 0001-cmake-disable-version-from-git.patch
-0002-debian-control-add-break-libpvestorage-perl.patch
 0003-d-rules-fix-instaldoc-override-and-ship-upstream-cha.patch
-0004-remove-legacy-pve-ceph-osd-activation-script-in-post.patch
-0005-remove-legacy-init.d-ceph-script.patch
 0006-ceph-mgr-only-suggest-mgr-plugins.patch
 0007-Remove-failing-actions-from-prerm.patch
 0008-fix-service-ordering-avoid-Before-remote-fs-pre.targ.patch
@@ -16,3 +13,15 @@
 0016-d-control-fix-lua-dependencies-for-librgw2.patch
 0017-common-pick_address-Add-IPv6-support-to-is_addr_in_s.patch
 0018-disable-elastic_shared_blob-to-prevent-crashing-OSDs.patch
+0019-mgr-stop-using-deprecated-API-to-initialize-Python.patch
+0020-mgr-set-argv-for-python-in-PyModuleRegistry.patch
+0021-mgr-add-site-package-paths-in-PyModuleRegistry.patch
+0022-d-rules-disable-jaeger-telemetry.patch
+0023-fix-build-for-Apache-Arrow-15.0.0.-on-Debian.patch
+0024-Update-RGW-Arrow-Flight-code-to-adjust-to-API-change.patch
+0025-s3select-fix-compilation-with-Arrow-15.patch
+0026-d-install-systemd-unit-files-are-now-in-usr-lib.patch
+0027-d-py3dist-drop-python3-distutils-not-available-in-De.patch
+0028-python-common-add-a-utils-function-to-replace-distut.patch
+0029-pybind-mgr-replace-imports-of-distutils.util.patch
+0030-debian-radosgw-add-media-types-packages-as-alternati.patch
